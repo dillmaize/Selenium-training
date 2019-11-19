@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.training.selenium.MyFirstTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-19T15:59:51" hostname="s4nxpa8" time="6.124">
+  <properties/>
+  <testcase name="myFirstTest" classname="ru.stqa.training.selenium.MyFirstTest" time="6.124"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 9905
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Nov 19, 2019 6:59:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
