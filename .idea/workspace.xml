@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c33311-9b32-413e-b2ad-892b9ff93ce7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/SelectAdminSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/StickerCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/LoginScenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/LoginScenario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/LoginScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/LoginScenario.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelectAdminSection">
+  <component name="RunManager" selected="JUnit.StickerCheck">
     <configuration name="MyFirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.MyFirstTest" />
       <module name="java-test.test" />
@@ -147,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.stqa.training.selenium in java-test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StickerCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test.test" />
       <extension name="coverage">
         <pattern>
@@ -156,18 +154,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.StickerCheck" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StickerCheck" />
         <item itemvalue="JUnit.SelectAdminSection" />
         <item itemvalue="JUnit.LoginScenario" />
         <item itemvalue="JUnit.MyFirstTest2" />
         <item itemvalue="Application.MyFirstTest" />
-        <item itemvalue="JUnit.ru.stqa.training.selenium in java-test.test" />
       </list>
     </recent_temporary>
   </component>
