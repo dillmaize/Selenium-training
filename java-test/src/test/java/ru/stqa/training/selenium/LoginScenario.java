@@ -40,7 +40,7 @@ public class LoginScenario {
     }
 
     @After
-    public void stop(){
+    public void stop() {
         driver.quit();
         driver = null;
     }

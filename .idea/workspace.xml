@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c33311-9b32-413e-b2ad-892b9ff93ce7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/SortTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/CheckProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-test/src/test/resources/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/LoginScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/LoginScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/SelectAdminSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/SelectAdminSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/StickerCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/StickerCheck.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +74,22 @@
   <component name="ProjectId" id="1TpuR4admWcS0bNQuqJe4xQNzQy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java-test/src/test/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anna.kashenok\Desktop\course\Java\Repository\Selenium-training\java-test\src\test\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,8 +103,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortTests">
-    <configuration name="SelectAdminSection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="CheckProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test.test" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +113,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.SelectAdminSection" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CheckProductTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckProductTest" />
         <item itemvalue="JUnit.SortTests" />
         <item itemvalue="JUnit.SortTests.sortGeoZone" />
         <item itemvalue="JUnit.SortTest" />
         <item itemvalue="JUnit.StickerCheck" />
-        <item itemvalue="JUnit.SelectAdminSection" />
       </list>
     </recent_temporary>
   </component>
