@@ -17,12 +17,14 @@ public class ApplicationManager {
     private final Properties properties;
     WebDriver wd;
 
+
     private String browser;
 
 
     public ApplicationManager(String browser) {
         this.browser = browser;
         properties = new Properties();
+
     }
 
 
@@ -42,8 +44,8 @@ public class ApplicationManager {
     }
 
     public void stop() {
-        wd.quit();
-        wd = null;
+        //  wd.quit();
+        // wd = null;
     }
 
     public static void login() {
