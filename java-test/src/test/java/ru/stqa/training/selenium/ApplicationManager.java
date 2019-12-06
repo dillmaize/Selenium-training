@@ -44,13 +44,15 @@ public class ApplicationManager {
     }
 
     public void stop() {
-        //  wd.quit();
-        // wd = null;
+        wd.quit();
+        wd = null;
     }
 
     public static void login() {
         app.wd.findElement(By.name("username")).sendKeys("admin");
         app.wd.findElement(By.name("password")).sendKeys("admin");
         app.wd.findElement(By.name("login")).click();
+
     }
+
 }
