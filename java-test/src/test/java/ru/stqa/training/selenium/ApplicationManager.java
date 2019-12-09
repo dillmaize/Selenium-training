@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -16,6 +17,8 @@ import static ru.stqa.training.selenium.TestBase.app;
 public class ApplicationManager {
     private final Properties properties;
     WebDriver wd;
+    private WebDriverWait wait;
+    private int implicitlyWait = 1;
 
 
     private String browser;
@@ -41,6 +44,7 @@ public class ApplicationManager {
         }
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         // wd.get(properties.getProperty("web.baseUrl"));
+        wait = new WebDriverWait(wd, 10);
     }
 
     public void stop() {
