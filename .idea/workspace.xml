@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c33311-9b32-413e-b2ad-892b9ff93ce7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/CountriesLinkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/CheckLogTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/RecycleBinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/RecycleBinTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/RecycleBinTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/build/classes/java/test/ru/stqa/training/selenium/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/test/java/ru/stqa/training/selenium/ApplicationManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountriesLinkTest">
+  <component name="RunManager" selected="JUnit.CheckLogTest">
     <configuration name="AddNewProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test.test" />
       <extension name="coverage">
@@ -120,6 +115,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckLogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CheckLogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountriesLinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test.test" />
       <extension name="coverage">
@@ -130,21 +140,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CountriesLinkTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.NewUserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckLogTest" />
         <item itemvalue="JUnit.CountriesLinkTest" />
         <item itemvalue="JUnit.RecycleBinTest2" />
         <item itemvalue="JUnit.RecycleBinTest" />
         <item itemvalue="JUnit.AddNewProductTest" />
-        <item itemvalue="JUnit.NewUserTest" />
       </list>
     </recent_temporary>
   </component>
